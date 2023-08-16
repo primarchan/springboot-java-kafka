@@ -1,0 +1,19 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    generate-unique-name: false
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+#spring.h2.console.enabled=true
+#spring.h2.console.path=/h2-console
+#spring.datasource.generate-unique-name=false
+#
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=true
